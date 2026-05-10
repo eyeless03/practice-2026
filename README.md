@@ -49,10 +49,6 @@
 │       ├── about.html
 │       ├── 404.html
 │       └── style.css
-├── task/
-│   ├── README.md
-│   ├── git_structure.md
-│   └── terms.md
 └── .gitignore
 ```
 
