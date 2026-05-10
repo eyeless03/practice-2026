@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>О проекте</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+    <main class="page">
+      <p class="eyebrow">О проекте</p>
+      <h1>Как работает сервер</h1>
+      <p>
+        Сервер открывает TCP-сокет, ожидает подключение клиента, читает первую
+        строку HTTP-запроса и выбирает обработчик по пути запроса.
+      </p>
+      <ul>
+        <li><code>GET /</code> возвращает главную страницу.</li>
+        <li><code>GET /about</code> возвращает описание проекта.</li>
+        <li><code>GET /static/style.css</code> возвращает CSS-файл.</li>
+        <li>Неизвестный адрес возвращает <code>404 Not Found</code>.</li>
+      </ul>
+      <nav>
+        <a href="/">На главную</a>
+      </nav>
+    </main>
+  </body>
+</html>

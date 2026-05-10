@@ -29,7 +29,9 @@
 │   ├── README.md
 │   ├── practice_documentation.md
 │   ├── journal.md
-│   └── neopixel_task.md
+│   ├── neopixel_task.md
+│   ├── technical_guide.md
+│   └── variant_journal.md
 ├── reports/
 │   └── README.md
 ├── site/
@@ -39,7 +41,14 @@
 │   └── images/
 │       └── fkiw.png
 ├── src/
-│   └── README.md
+│   ├── README.md
+│   ├── main.py
+│   ├── server.py
+│   └── public/
+│       ├── index.html
+│       ├── about.html
+│       ├── 404.html
+│       └── style.css
 ├── task/
 │   ├── README.md
 │   ├── git_structure.md
@@ -71,6 +80,18 @@
 - [docs/practice_documentation.md](docs/practice_documentation.md) - описание выполненной работы;
 - [docs/journal.md](docs/journal.md) - журнал этапов;
 - [docs/neopixel_task.md](docs/neopixel_task.md) - описание моей задачи по NeoPixel.
+- [docs/technical_guide.md](docs/technical_guide.md) - техническое руководство по HTTP-серверу;
+- [docs/variant_journal.md](docs/variant_journal.md) - журнал выполнения вариативной части.
+
+## Исходный код
+
+Код вариативной части находится в папке [src](src/).
+
+Основные файлы:
+
+- [src/main.py](src/main.py) - запуск сервера;
+- [src/server.py](src/server.py) - логика HTTP-сервера;
+- [src/public](src/public/) - HTML-страницы и CSS для проверки работы сервера.
 
 ## Отчетные материалы
 
