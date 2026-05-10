@@ -1,0 +1,17 @@
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# IDE
+.vscode/
+.idea/
